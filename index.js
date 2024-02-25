@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const dotenv = require("dotenv"); 
-dotenv.config(); 
+dotenv.config();
+const keepAlive = require('./keep_alive.js');
 
 const Token = process.env.TOKEN; 
 const geminiAPIKey = process.env.API_TOKEN; 
