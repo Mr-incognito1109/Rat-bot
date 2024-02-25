@@ -1,3 +1,5 @@
+# Replace filename dotenv with .env
+
 TOKEN = "ADD_BOT_TOKEN"
 API_TOKEN = "GOOGLE_GEMINI_AI"
 CLIENT_ID = "BOT_CLIENT_ID"
